@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #FAA41A;
+  --color-brand-accent: #FFFF00;
+  --color-brand-bg: #F7F7F7;
+  --color-brand-text: #161616;
+  --color-brand-link: #FFFF00;
+  
+  --font-heading: "Cinzel", Georgia, serif;
+  --font-body: "Source Sans 3", "Source Sans Pro", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-body);
+  /* Base font size increased to lean towards the requested 24px body size while remaining responsive */
+  font-size: 18px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
