@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# MTL Exclusive — Premium Car Detailing Montreal
 
-# Run and deploy your AI Studio app
+Website for **MTL Exclusive / MECC Detailing**, a premium mobile car detailing business serving the Greater Montreal Area.
 
-This contains everything you need to run your app locally.
+Built with React 19, TypeScript, Vite, and TailwindCSS v4.
 
-View your app in AI Studio: https://ai.studio/apps/18c0fd61-529e-458b-8fb3-7dcc865bf96d
+## Stack
 
-## Run Locally
+- React 19 + TypeScript
+- Vite 6
+- TailwindCSS v4
+- Framer Motion (`motion/react`)
+- React Router v7
+- Lucide React
 
-**Prerequisites:**  Node.js
+## Getting Started
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+App runs at [http://localhost:3000](http://localhost:3000).
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server on port 3000 |
+| `npm run build` | Production build to `dist/` |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | TypeScript type-check |
+
+## Deployment
+
+Hosted on [Vercel](https://vercel.com). Push to `main` triggers automatic deployment.
